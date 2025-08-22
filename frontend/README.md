@@ -1,11 +1,3 @@
-<!--
-  README for the unified property‑search and scheduling portal.
-  This document provides an overview of the project, how to run the
-  application locally, and guidelines for contributing.  Feel free to
-  customise sections such as the project name, contact information,
-  and contribution policies as you see fit.
--->
-
 # Unified Property‑Search & Scheduling Portal
 
 Modern buyers expect to search for properties and schedule viewings at any time without waiting on an agent.  This project implements a responsive web application for a real estate agency that allows clients to browse listings, filter by key criteria, and book appointments directly through the platform.  By automating these workflows, agents can focus on nurturing relationships while clients enjoy a smoother experience.
@@ -40,7 +32,7 @@ This repository is organised into two main parts:
 
 1. **Clone the repository** (or copy these files into a new GitHub project):
    ```bash
-   git clone https://github.com/your‑username/real_estate_portal.git
+   git clone https://github.com/mraddai/improvedUnifiedREportal
    cd real_estate_portal
    ```
 

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Property Search Portal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Real Estate Portal</h1>
+  </header>
+  <main>
+    <section id="search">
+      <h2>Search Properties</h2>
+      <form id="searchForm">
+        <label>
+          City:
+          <input type="text" id="city" name="city" placeholder="e.g. Metropolis" />
+        </label>
+        <label>
+          Min Price:
+          <input type="number" id="minPrice" name="minPrice" placeholder="0" />
+        </label>
+        <label>
+          Max Price:
+          <input type="number" id="maxPrice" name="maxPrice" placeholder="1000000" />
+        </label>
+        <button type="submit">Search</button>
+      </form>
+      <ul id="properties"></ul>
+    </section>
+    <section id="schedule" hidden>
+      <h2>Schedule a Viewing</h2>
+      <form id="scheduleForm">
+        <input type="hidden" id="propertyId" name="propertyId" />
+        <p id="selectedProperty"></p>
+        <label>
+          Your Name:
+          <input type="text" id="clientName" name="clientName" required />
+        </label>
+        <label>
+          Your Email:
+          <input type="email" id="clientEmail" name="clientEmail" required />
+        </label>
+        <label>
+          Preferred Time:
+          <input type="datetime-local" id="preferredTime" name="preferredTime" required />
+        </label>
+        <button type="submit">Book Viewing</button>
+      </form>
+      <p id="confirmation" hidden></p>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
